@@ -2,7 +2,7 @@
 
 **Filip Majchrzak** (ORCID 0009-0007-3475-8900), independent researcher, Poland — 14 November 2026
 
-> Archived version (identical files): **doi:[10.5281/zenodo.24214002](https://doi.org/10.5281/zenodo.24214002)**
+> Archived on Zenodo — this version (1.0.1; same data files and verifier): **doi:[10.5281/zenodo.24241360](https://doi.org/10.5281/zenodo.24241360)**; all versions: doi:[10.5281/zenodo.24214001](https://doi.org/10.5281/zenodo.24214001)
 
 ## Result
 
@@ -59,9 +59,13 @@ minimum modulus 11 came from the monotonicity step above. The search method is n
 
 - That 1 663 200 is the least lcm for minimum modulus 11 or 12. No lower bound is given.
 - Anything about minimum moduli 8, 9 or 10.
-- Priority beyond the literature located: arXiv and web searches (13–14 November 2026) found no distinct covering
-  with minimum modulus 11 and lcm below 3 326 400. Note that the number 1 663 200 already occurs in the literature as
-  the lcm of W. Bosma's greedy construction with minimum modulus **10** [2]; the system here has minimum modulus 12.
+- Priority beyond the literature located. Searches of arXiv and the web (13–14 November 2026) and a direct check of
+  Chapter V of Krukenberg's thesis [3] (coverings with smallest modulus up to 18) found no distinct covering with
+  minimum modulus 11 and lcm below 3 326 400. The number
+  1 663 200 itself is not new as an lcm: it is the lcm of Krukenberg's covering with minimum modulus **10**
+  [3, Chapter V, table on pp. 38–39] and of W. Bosma's greedy construction with minimum modulus 10 [2]. For minimum
+  modulus 11 and 12 the coverings in [3] have lcm 21 621 600 and 237 837 600 (86 486 400 and 951 350 400 in the
+  second construction there). The system here has minimum modulus 12.
 
 ## Related
 
@@ -74,6 +78,16 @@ doi:10.5281/zenodo.24202654.
 
 [2] W. Bosma, *Some computational experiments in number theory*, in: W. Bosma, J. Cannon (eds.), Discovering
 Mathematics with Magma, Springer, 2006, pp. 1–30 (as cited in [1], Table 1).
+
+[3] C. E. Krukenberg, *Covering Sets of the Integers*, Ph.D. thesis, University of Illinois at Urbana-Champaign,
+1971.
+
+## Changes
+
+- **1.0.1** (15 November 2026). Literature note corrected: the lcm 1 663 200 for minimum modulus 10 goes back to
+  Krukenberg (1971) [3], not only to Bosma (2006) [2]; the thesis was checked for minimum modulus 11 and 12.
+  The data files and the verifier are unchanged (same SHA-256 sums).
+- **1.0.0** (14 November 2026). First version.
 
 ## License
 
